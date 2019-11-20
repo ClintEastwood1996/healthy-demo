@@ -1,0 +1,166 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+    /* header */
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+     /* section-advantages */
+    /* section-advantages */
+    .advantages {
+        padding: 80px 0% 305px 0%;
+    } 
+
+        .adv-content__text {
+            width: 50%;
+        }
+}
+
+/* 769 - 960 px */
+@media screen and (max-width: 960px) {
+   
+    /* header */
+    .main-nav {
+        display: none;
+    }    
+        
+
+    .cart {
+        margin-right: 5%;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    /* section-slide */
+
+    .organics__item {
+        font-size: 12px;
+    }
+
+    .organics-img {
+        background-position: 50% 90%, 50% 0%;
+        background-size: 170px, 200px;
+        flex-shrink: 1;
+    }
+
+    /* section-advantages */
+    .advantages {
+        padding: 80px 0% 305px 0%;
+    } 
+
+        .advantages::after {
+            top: 76%;
+        }
+
+        .adv-content__text {
+            width: 60%;
+        }
+}
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+    /* header */
+    .menu-line {
+        padding: 0 30px;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    /* section-slide */
+    .organics-img {
+        flex-shrink: 0;
+    }
+
+    .oragincs {
+        flex-flow: row wrap;
+    }
+
+        .organics-img {
+            order: -1;
+            flex-basis: 100%;
+        }
+
+        .organics__item {
+            flex-basis: 40%;
+        }
+
+    /* section-advantages */
+
+    .section-advantages {
+        background-position-y: 450px, 10px;
+    }
+
+        .advantages {
+            padding: 80px 0% 300px 0%;
+            height: auto;
+            flex-flow: row wrap;
+        }
+
+            .advantages .advantages-item {
+                align-self: flex-start;
+                margin-bottom: 30px;
+            }
+
+
+  
+        .adv-pineapple {
+            width: 90%;
+        }
+
+        .advantages::after {
+            width: 109px;
+            height: 109px;
+            left: 56%;
+            top: 90%;
+        }
+
+        .adv-content__subtitle::before,
+        .adv-content__subtitle::after {
+            display: none;
+        }
+}
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+    /* header */
+    .promo {
+        margin:  0 25px;
+    }
+
+    .organics__item {
+        flex-basis: 50%;
+    }
+
+    .carousel__item {
+      width: 100%;
+    }
+
+    .owl-stage {
+        padding: 0 0;
+    }
+
+    .wrapper-carousel {
+        padding: 70px 0px 70px 0px;
+    }
+}
+
+    /* section-slide */
+}
