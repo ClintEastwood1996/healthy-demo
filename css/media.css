@@ -37,6 +37,7 @@
         .our-products-desc {
             order: 1;
             margin: 0;
+            margin-left: 40px;
         }
 
         .our-products-item {
@@ -87,6 +88,11 @@
         .adv-content__text {
             width: 60%;
         }
+
+    /* section-our-products */
+    .our-products-desc {
+        margin: 0;
+    }
 }
 
 /* 481 - 768 px */
