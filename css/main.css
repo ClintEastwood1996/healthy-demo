@@ -232,12 +232,14 @@
 	
 	/* carousel */
 	.wrapper-carousel {
-		padding: 70px 75px 70px 75px;
-	}
-
-	.carousel {
+		margin: 70px 75px 70px 75px;
+		overflow: hidden;
 		
 	}
+
+		.carousel {
+			min-width: 1750px;
+		}
 
 		.carousel__item {
 			width: 270px;
@@ -245,10 +247,7 @@
 			border-radius: 15px;
 			margin-bottom: 10px;
 			margin-top: 5px;
-		}
-
-		.owl-stage {
-			padding: 0 10px;
+			margin-left: 10px;
 		}
 
 

@@ -171,19 +171,12 @@
     .organics__item {
         flex-basis: 50%;
     }
-
-    .carousel__item {
-      width: 100%;
-    }
-
-    .owl-stage {
-        padding: 0 0;
-    }
-
-    .wrapper-carousel {
-        padding: 70px 0px 70px 0px;
-    }
-}
-
+    
     /* section-slide */
+    .wrapper-carousel {
+		margin: 70px 30px 70px 30px;
+	}
+
 }
+
+    
