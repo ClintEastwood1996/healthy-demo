@@ -19,7 +19,6 @@
         font-size: 12px;
     }
 
-     /* section-advantages */
     /* section-advantages */
     .advantages {
         padding: 80px 0% 305px 0%;
@@ -28,6 +27,23 @@
         .adv-content__text {
             width: 50%;
         }
+
+    /* section-our-products */
+    .our-products-part {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+        .our-products-desc {
+            order: 1;
+            margin: 0;
+        }
+
+        .our-products-item {
+            margin: 0 15px;
+            margin-bottom: 30px;
+        }
+
 }
 
 /* 769 - 960 px */
@@ -136,6 +152,13 @@
         .adv-content__subtitle::after {
             display: none;
         }
+
+         /* section-our-products */
+         .our-products-desc {
+             padding-left: 30px;
+             padding-right: 30px;
+         }
+
 }
 
 /* 320 - 480 px */
