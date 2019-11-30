@@ -8,8 +8,8 @@
 
 }
 
-/* 961 - 1368 px */
-@media screen and (max-width: 1368px) {
+/* 961 - 1200 px */
+@media screen and (max-width: 1200px) {
     /* header */
     h1 {
         font-size: 40px;
@@ -29,9 +29,10 @@
         }
 
     /* section-our-products */
-    .our-products-part {
+    .our-products-row {
         flex-wrap: wrap;
         margin-bottom: 0;
+        padding: 0px 125px;
     }
 
         .our-products-desc {
@@ -90,9 +91,13 @@
         }
 
     /* section-our-products */
-    .our-products-desc {
-        margin: 0;
+    .our-products-row {
+        padding: 0px;
     }
+
+        .our-products-desc {
+            margin: 0;
+        }
 }
 
 /* 481 - 768 px */
@@ -160,10 +165,21 @@
         }
 
          /* section-our-products */
-         .our-products-desc {
-             padding-left: 30px;
-             padding-right: 30px;
-         }
+
+            .our-products-desc {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+
+            .our-products-item {
+                margin: 0 14%;
+                margin-bottom: 30px;
+                width: 250px;
+            }
+
+
+
+         
 
 }
 
