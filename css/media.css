@@ -5,7 +5,11 @@
 
 /* 1369 - 1600 px */
 @media screen and (max-width: 1600px) {
+    /* footer */
 
+    .footer {
+        padding: 100px 100px 0;
+    }
 }
 
 /* 961 - 1200 px */
@@ -46,6 +50,24 @@
             margin-bottom: 30px;
         }
 
+    /* footer */
+    .footer {
+        flex-wrap: wrap;
+    }
+
+        .about-us {
+            margin: 0 auto 50px;
+            flex-shrink: 0;
+        }
+
+        .naturix-info {
+            margin: 0 auto 50px;
+        }
+
+        .my-accaunt {
+            margin: 0 auto 50px;
+        }
+        
 }
 
 /* 769 - 960 px */
@@ -177,7 +199,16 @@
                 width: 250px;
             }
 
+    /* footer */ 
+    .footer {
+        padding: 100px 50px 0;
 
+    }
+
+    .about-us {
+        
+        flex-shrink: 1;
+    }
 
          
 

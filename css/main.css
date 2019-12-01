@@ -534,8 +534,9 @@
 				background-color: #eeeeee;
 				height: 2px;
 				width: 40px;
-				left: 65px;
+				left: 50%;
 				top: 170px;
+				margin-left: -20px;
 			}
 
 			.our-products-item:hover {
@@ -585,3 +586,75 @@
 			.our-products-desc__text {
 				font-size: 16px;
 			}
+
+/* footer */
+
+.footer {
+	background-color: #f9f8f4;
+	padding: 100px 150px 0;
+	display: flex;
+	
+}
+
+	.about-us {
+		flex-basis: 330px;
+		margin: 0 auto;
+	}
+
+		.about-us__logo {
+			margin-bottom: 80px;
+		}
+
+		.about-us__text {
+			margin-bottom: 20px;
+		}
+
+		.about-us__contacts {
+			padding-left: 35px;
+		}
+
+			.about-us__contact {
+				margin-bottom: 10px;
+			}
+
+			.about-us__site {
+				color: #7abf00;
+			}
+
+	.naturix-info {
+		flex-basis: 160px;
+		margin: 0 auto;
+	}
+
+		.naturix-info__title {
+			font-size: 18px;
+		}
+
+		.naturix-info__item {
+			margin-bottom: 20px;
+			font-size: 15px;
+		}
+
+
+	.my-accaunt {
+		flex-basis: 160px;
+		margin: 0 auto;
+	}
+
+		.my-accaunt__title {
+			font-size: 18px;
+		}
+
+		.my-accaunt__item {
+			margin-bottom: 20px;
+			font-size: 15px;
+		}
+
+	.photo-inst {
+		flex-basis: 270px;
+		margin: 0 auto;
+	}
+
+		.photo-inst__title {
+			font-size: 18px;
+		}
